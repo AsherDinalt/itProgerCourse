@@ -23,7 +23,7 @@ git remote add origin https://github.com/AsherDinalt/itProgerCourse.git
 
 git push -u origin master
 
-git clone https://github.com/AsherDinalt/CppStudy.git
+git clone https://github.com/AsherDinalt/itProgerCourse.git
 
 
 git config --global credential.helper cache

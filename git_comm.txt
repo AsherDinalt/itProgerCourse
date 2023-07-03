@@ -1,0 +1,33 @@
+git init
+git config --global user.name "AsherDinalt"
+git config --global user.name
+git config --global user.email "asher.dinalt@gmail.com"
+git config --global user.email
+git add *.cpp
+git status
+git rm --cached module04/les_001/my_math.h
+git rm -r --cached .
+git commit -m "version 1.0.0 2023.06.30"
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+
+git branch forum
+git checkout forum
+git branch -d forum
+
+git merge forum
+
+git remote
+git branch -M main (если надо менять название ветки
+git remote add origin https://github.com/AsherDinalt/itProgerCourse.git
+
+git push -u origin master
+
+git clone https://github.com/AsherDinalt/CppStudy.git
+
+
+git config --global credential.helper cache
+git config --global --unset credential.helper
+git config --system --unset credential.helper
+
+git clone https://<tokenhere>@github.com/<user>/<repo>.git
